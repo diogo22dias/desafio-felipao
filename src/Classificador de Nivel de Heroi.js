@@ -1,12 +1,12 @@
+//Classificador de nivel de Heroi
 let nomeHeroi = "Guerreiro Feroz"
-let xp = 1200
+let xp = 7000
 let nivel = ["ferro","bronze","Prata","Ouro","Platina","Ascendente","Imortal","Radiante"]
 
 switch(true){
 case xp<= 1000: 
 console.log("O Herói de nome ** " + nomeHeroi + "** está no nível de **" + nivel[0] +"**")
 break
-
 
 case xp >=2001 && xp<= 5000: 
 console.log("O Herói de nome ** " + nomeHeroi + "** está no nível de **" + nivel[1] +"**")
